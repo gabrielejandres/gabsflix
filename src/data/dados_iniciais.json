@@ -1,0 +1,176 @@
+{
+  "categorias": [
+    {
+      "titulo": "Músicas",
+      "cor": "#FF8EB7",
+      "videos": [
+        {
+          "titulo": "O Teu Amor",
+          "url": "https://www.youtube.com/watch?v=OFbdFXzqY_w"
+        },
+        {
+          "titulo": "É tudo sobre Você",
+          "url": "https://www.youtube.com/watch?v=ePdRgBWhvog"
+        },
+        {
+          "titulo": "Anunciação",
+          "url": "https://www.youtube.com/watch?v=eebLcRDgbBg"
+        },
+        {
+          "titulo": "It's you",
+          "url": "https://www.youtube.com/watch?v=b4oqJ5_0XtQ"
+        },
+        {
+          "titulo": "Impressionando os anjos",
+          "url": "https://www.youtube.com/watch?v=TK_j5NhE7Jg"
+        },
+        {
+          "titulo": "Contramão",
+          "url": "https://www.youtube.com/watch?v=5iUoik-9hVI"
+        },
+        {
+          "titulo": "(não) era amor",
+          "url": "https://www.youtube.com/watch?v=Ue5UlTJ5-is"
+        },
+        {
+          "titulo": "Porque eu te amo",
+          "url": "https://www.youtube.com/watch?v=rEnD32kbw6I"
+        }        
+      ]
+    },
+    {
+      "titulo": "Back End",
+      "cor": "#00EDE2",
+      "videos": [
+        {
+          "titulo": "Testes no NodeJS aplicando TDD com Jest",
+          "url": "https://www.youtube.com/watch?v=2G_mWfG0DZE&list=PL85ITvJ7FLoh7QBmTVzuNYvZaYPYwDmei&index=9"
+        },
+        {
+          "titulo": "PHP vale a pena?",
+          "url": "https://www.youtube.com/watch?v=H43fXodv6WY"
+        },
+        {
+          "titulo": "O que é API? REST e RESTful?",
+          "url": "https://www.youtube.com/watch?v=ghTrp1x_1As"
+        },
+        {
+          "titulo": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        }, 
+        {
+          "titulo": "API RESTful #1: Entenda!",
+          "url": "https://www.youtube.com/watch?v=Abo_GiaunlU"
+        }
+      ]
+    },
+    {
+      "titulo": "Front-end",
+      "cor": "#FE346E",
+      "videos": [
+        {
+          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        },
+        {
+          "titulo": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+          "titulo": "Componentização com VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        },
+        {
+          "titulo": "Pare de chutar e aprenda a display: inline #01",
+          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        },
+        {
+          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "titulo": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }        
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "#00B4AB",
+      "videos": [
+        {
+          "titulo": "Até o último homem",
+          "url": "https://www.youtube.com/watch?v=JdoXJug7euE"
+        },
+        {
+          "titulo": "Thor: Ragnarok",
+          "url": "https://www.youtube.com/watch?v=blDrXGHWnfY"
+        },
+        {
+          "titulo": "Vingadores: Ultimato",
+          "url": "https://www.youtube.com/watch?v=azgB1ju9ymw"
+        },
+        {
+          "titulo": "Mogli - O Menino Lobo",
+          "url": "https://www.youtube.com/watch?v=ZAjq-RhgXkA"
+        }
+      ]
+    },
+    {
+      "titulo": "UX e UI",
+      "cor": "#BB003D",
+      "videos": [
+        {
+          "titulo": "Como Começar em UX Design: Absolutamente TUDO que você precisa saber",
+          "url": "https://www.youtube.com/watch?v=MFQcGDO67JU"
+        },
+        {
+          "titulo": "UI Design - Dicas e boas práticas de UI Design",
+          "url": "https://www.youtube.com/watch?v=opR6OGBmsO8"
+        },
+        {
+          "titulo": "UI/UX Design Trends (2020)",
+          "url": "https://www.youtube.com/watch?v=6DdUkxajANs"
+        },
+        {
+          "titulo": "Tutorial Completo de FIGMA - Ferramenta GRÁTIS para Design de Interfaces",
+          "url": "https://www.youtube.com/watch?v=vg-INqhKD5c"
+        }
+      ]
+    },
+    {
+      "titulo": "Decoração",
+      "cor": "#007E77",
+      "videos": [
+        {
+          "titulo": "DIY DECORAÇÃO DE QUARTO - 12 IDEIAS INCRÍVEIS",
+          "url": "https://www.youtube.com/watch?v=1-uNdMJ8pJY"
+        },
+        {
+          "titulo": "DIY Transformando Armário Antigo em Novo + Leds!!!",
+          "url": "https://www.youtube.com/watch?v=2fLjnxt2m00"
+        },
+        {
+          "titulo": "DIY TRANSFORMEI MEU QUARTO! *aesthetic room tranformation* |",
+          "url": "https://www.youtube.com/watch?v=mejeJTyLELQ"
+        },
+        {
+          "titulo": "Ideias DIY p/ Quarentena!",
+          "url": "https://www.youtube.com/watch?v=yMzsVkGMZcM"
+        },
+        {
+          "titulo": "Ideias pra Decorar seu QUARTO! #01 - Pinterest/Tumblr",
+          "url": "https://www.youtube.com/watch?v=P1qQtyTgajE"
+        }
+      ]
+    }
+  ]
+}
