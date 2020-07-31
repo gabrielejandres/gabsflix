@@ -38,7 +38,8 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const includesLocalhost = window.location.hostname.includes('localhost');
+    const URL = includesLocalhost ? 'http://localhost:8080/categorias' : 'https://gabsflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (serverResponse) => {
         const response = await serverResponse.json();
