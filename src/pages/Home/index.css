@@ -107,13 +107,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.end {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 5%;
-}
-
-.btn {
-  background-color: var(--black);
-}

@@ -6,6 +6,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import './index.css';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -14,28 +15,18 @@ function CadastroCategoria() {
     cor: '',
   };
 
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [categoria, setCategoria] = useState(valoresIniciais);
-
-  function setCat(chave, valor) {
-    setCategoria({
-      ...categoria,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(event) {
-    setCat(event.target.getAttribute('name'), event.target.value);
-  }
 
   function handleSubmit(event) {
     event.preventDefault();
     setCategorias([
       ...categorias,
-      categoria,
+      values,
     ]);
 
-    setCat(valoresIniciais);
+    clearForm();
   }
 
   useEffect(() => {
@@ -59,7 +50,7 @@ function CadastroCategoria() {
           label="Nome da Categoria"
           type="text"
           name="nome"
-          value={categoria.nome}
+          value={values.nome}
           onChange={handleChange}
         />
 
@@ -67,7 +58,7 @@ function CadastroCategoria() {
           label="Descrição"
           type="textarea"
           name="descricao"
-          value={categoria.descricao}
+          value={values.descricao}
           onChange={handleChange}
         />
 
@@ -75,12 +66,12 @@ function CadastroCategoria() {
           label="Cor"
           type="color"
           name="cor"
-          value={categoria.cor}
+          value={values.cor}
           onChange={handleChange}
         />
 
         <div className="center">
-          <Button>
+          <Button className="btn">
             Cadastrar
           </Button>
         </div>

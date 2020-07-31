@@ -109,7 +109,7 @@
       "categoriaId": 2,
       "titulo": "API: Dicionário do Programador",
       "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    }, 
+    },
     {
       "id": 13,
       "categoriaId": 2,
@@ -241,6 +241,18 @@
       "categoriaId": 6,
       "titulo": "Ideias pra Decorar seu QUARTO! #01 - Pinterest/Tumblr",
       "url": "https://www.youtube.com/watch?v=P1qQtyTgajE"
+    },
+    {
+      "titulo": "Obsessed",
+      "url": "https://www.youtube.com/watch?v=H1Yt0xJKDY8&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVMk2qgadSvNyU",
+      "categoriaId": 1,
+      "id": 35
+    },
+    {
+      "titulo": "CRUD Laravel",
+      "url": "https://www.youtube.com/watch?v=c4v1D2bYD5U",
+      "categoriaId": 2,
+      "id": 36
     }
   ]
 }
