@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import './index.css';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -47,24 +48,6 @@ function CadastroCategoria() {
           ...response,
         ]);
       });
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Front End',
-    //       descricao: 'ótima',
-    //       cor: '#cbd1ff',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Back End',
-    //       descricao: 'ótima',
-    //       cor: '#cbd1ff',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
   }, []);
 
   return (
@@ -96,17 +79,27 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
-          Cadastrar
-        </Button>
+        <div className="center">
+          <Button>
+            Cadastrar
+          </Button>
+        </div>
       </form>
 
+      <h2> Categorias cadastradas: </h2>
+      {/* loading section */}
       {categorias.length === 0 && (
-        <div>
-          <h1> Loading... </h1>
+        <div className="lds-roller">
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
         </div>
       )}
-
       <ul>
         {categorias.map((categoria) => (
           <li key={categoria.nome}>
@@ -115,9 +108,11 @@ function CadastroCategoria() {
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para home
-      </Link>
+      <div className="end">
+        <Button as={Link} to="/">
+          Ir para home
+        </Button>
+      </div>
     </PageDefault>
   );
 }
