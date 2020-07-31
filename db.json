@@ -2,15 +2,245 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
+      "titulo": "Músicas",
       "descricao": "ótima",
-      "cor": "#cbd1ff"
+      "cor": "#FF8EB7"
     },
     {
       "id": 2,
-      "nome": "Back End",
+      "titulo": "Back End",
       "descricao": "ótima",
-      "cor": "#cbd1ff"
+      "cor": "#00EDE2"
+    },
+    {
+      "id": 3,
+      "titulo": "Front End",
+      "descricao": "ótima",
+      "cor": "#FE346E"
+    },
+    {
+      "id": 4,
+      "titulo": "Filmes",
+      "descricao": "ótima",
+      "cor": "#00B4AB"
+    },
+    {
+      "id": 5,
+      "titulo": "UX & UI Design",
+      "descricao": "ótima",
+      "cor": "#BB003D"
+    },
+    {
+      "id": 6,
+      "titulo": "Decoração",
+      "descricao": "ótima",
+      "cor": "#007E77"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O Teu Amor",
+      "url": "https://www.youtube.com/watch?v=OFbdFXzqY_w"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "É tudo sobre Você",
+      "url": "https://www.youtube.com/watch?v=ePdRgBWhvog"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Anunciação",
+      "url": "https://www.youtube.com/watch?v=eebLcRDgbBg"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "It's you",
+      "url": "https://www.youtube.com/watch?v=b4oqJ5_0XtQ"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Impressionando os anjos",
+      "url": "https://www.youtube.com/watch?v=TK_j5NhE7Jg"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Contramão",
+      "url": "https://www.youtube.com/watch?v=5iUoik-9hVI"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "(não) era amor",
+      "url": "https://www.youtube.com/watch?v=Ue5UlTJ5-is"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Porque eu te amo",
+      "url": "https://www.youtube.com/watch?v=rEnD32kbw6I"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Testes no NodeJS aplicando TDD com Jest",
+      "url": "https://www.youtube.com/watch?v=2G_mWfG0DZE&list=PL85ITvJ7FLoh7QBmTVzuNYvZaYPYwDmei&index=9"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "PHP vale a pena?",
+      "url": "https://www.youtube.com/watch?v=H43fXodv6WY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "O que é API? REST e RESTful?",
+      "url": "https://www.youtube.com/watch?v=ghTrp1x_1As"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "API: Dicionário do Programador",
+      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+    }, 
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "API RESTful #1: Entenda!",
+      "url": "https://www.youtube.com/watch?v=Abo_GiaunlU"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Componentização com VanillaJS #AluraMais",
+      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Pare de chutar e aprenda a display: inline #01",
+      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Novidades do Angular v9",
+      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Base para aprender os frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Até o último homem",
+      "url": "https://www.youtube.com/watch?v=JdoXJug7euE"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Thor: Ragnarok",
+      "url": "https://www.youtube.com/watch?v=blDrXGHWnfY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Vingadores: Ultimato",
+      "url": "https://www.youtube.com/watch?v=azgB1ju9ymw"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Mogli - O Menino Lobo",
+      "url": "https://www.youtube.com/watch?v=ZAjq-RhgXkA"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Como Começar em UX Design: Absolutamente TUDO que você precisa saber",
+      "url": "https://www.youtube.com/watch?v=MFQcGDO67JU"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "UI Design - Dicas e boas práticas de UI Design",
+      "url": "https://www.youtube.com/watch?v=opR6OGBmsO8"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "UI/UX Design Trends (2020)",
+      "url": "https://www.youtube.com/watch?v=6DdUkxajANs"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Tutorial Completo de FIGMA - Ferramenta GRÁTIS para Design de Interfaces",
+      "url": "https://www.youtube.com/watch?v=vg-INqhKD5c"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "DIY DECORAÇÃO DE QUARTO - 12 IDEIAS INCRÍVEIS",
+      "url": "https://www.youtube.com/watch?v=1-uNdMJ8pJY"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "DIY Transformando Armário Antigo em Novo + Leds!!!",
+      "url": "https://www.youtube.com/watch?v=2fLjnxt2m00"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "DIY TRANSFORMEI MEU QUARTO! *aesthetic room tranformation* |",
+      "url": "https://www.youtube.com/watch?v=mejeJTyLELQ"
+    },
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Ideias DIY p/ Quarentena!",
+      "url": "https://www.youtube.com/watch?v=yMzsVkGMZcM"
+    },
+    {
+      "id": 34,
+      "categoriaId": 6,
+      "titulo": "Ideias pra Decorar seu QUARTO! #01 - Pinterest/Tumblr",
+      "url": "https://www.youtube.com/watch?v=P1qQtyTgajE"
     }
   ]
 }
